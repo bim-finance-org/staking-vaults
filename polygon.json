@@ -48,5 +48,30 @@
         "strategyId": "single"
       }
     ]
+  },
+  {
+    "id": "morpho-compound-weth",
+    "name": "Compound WETH",
+    "token": "WETH",
+    "tokenAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0xd166655ebf06484619909b2f73268f282496f853",
+    "earnedToken": "bimstWETHMorphoCompound",
+    "earnedTokenAddress": "0xd166655ebf06484619909b2f73268f282496f853",
+    "oracle": "tokens",
+    "oracleId": "ETH",
+    "status": "active",
+    "createdAt": 1744870819,
+    "platformId": "morpho",
+    "assets": ["WETH"],
+    "migrationIds": [],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_LARGE", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "single",
+    "network": "polygon",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
   }
 ]
