@@ -54,7 +54,7 @@
     "name": "Compound WETH",
     "token": "WETH",
     "tokenAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-    "tokenDecimals": 6,
+    "tokenDecimals": 18,
     "earnContractAddress": "0xd166655ebf06484619909b2f73268f282496f853",
     "earnedToken": "bimstWETHMorphoCompound",
     "earnedTokenAddress": "0xd166655ebf06484619909b2f73268f282496f853",
