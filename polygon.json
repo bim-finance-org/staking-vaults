@@ -73,5 +73,30 @@
         "strategyId": "single"
       }
     ]
+  },
+  {
+    "id": "morpho-compound-pol",
+    "name": "Compound POL",
+    "token": "POL",
+    "tokenAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0xD55fA1Be1872bac87bB838fB881c5Ff3627157AD",
+    "earnedToken": "bimstPOLMorphoCompound",
+    "earnedTokenAddress": "0xD55fA1Be1872bac87bB838fB881c5Ff3627157AD",
+    "oracle": "tokens",
+    "oracleId": "POL",
+    "status": "active",
+    "createdAt": 1744987510,
+    "platformId": "morpho",
+    "assets": ["POL"],
+    "migrationIds": [],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_LARGE", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "single",
+    "network": "polygon",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
   }
 ]
