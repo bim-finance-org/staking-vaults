@@ -50,7 +50,7 @@
     "oracle": "lps",
     "oracleId": "aura-gnosis-steur-eure",
     "status": "active",
-    "createdAt": 1747150000,
+    "createdAt": 1747212000,
     "platformId": "aura",
     "assets": ["stEUR", "EURe"],
     "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
