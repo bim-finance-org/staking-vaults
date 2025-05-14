@@ -1,46 +1,76 @@
 [
-	{
-		"id": "aura-gnosis-sdai-eure",
-		"name": "sDAI-EURe",
-		"type": "standard",
-		"token": "sDAI-EURe Gnosis",
-		"tokenAddress": "0xDd439304A77f54B1F7854751Ac1169b279591Ef7",
-		"tokenDecimals": 18,
-		"tokenProviderId": "balancer",
-		"earnContractAddress": "0xB4f0213AC2B0f9C9D30300f78636280B6E200465",
-		"earnedToken": "bimstsDAI-EUReAura",
-		"earnedTokenAddress": "0xB4f0213AC2B0f9C9D30300f78636280B6E200465",
-		"oracle": "lps",
-		"oracleId": "aura-gnosis-sdai-eure",
-		"status": "active",
-		"createdAt": 1746634299,
-		"platformId": "aura",
-		"assets": ["sDAI", "EURe"],
-		"risks": [
-			"COMPLEXITY_LOW",
-			"BATTLE_TESTED",
-			"IL_NONE",
-			"MCAP_SMALL",
-			"AUDIT",
-			"CONTRACTS_VERIFIED"
-		],
-		"strategyTypeId": "multi-lp",
-		"addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064/add-liquidity",
-		"removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064/remove-liquidity",
-		"network": "gnosis",
-		"zaps": [
-			{
-				"strategyId": "balancer",
-				"ammId": "gnosis-balancer",
-				"poolId": "0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064",
-				"poolType": "composable-stable",
-				"tokens": [
-					"0xaf204776c7245bF4147c2612BF6e5972Ee483701",
-					"0xcB444e90D8198415266c6a2724b7900fb12FC56E"
-				],
-				"bptIndex": 2,
-				"hasNestedPool": false
-			}
-		]
-	}
+  {
+    "id": "aura-gnosis-sdai-eure",
+    "name": "sDAI-EURe",
+    "type": "standard",
+    "token": "sDAI-EURe Gnosis",
+    "tokenAddress": "0xDd439304A77f54B1F7854751Ac1169b279591Ef7",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xB4f0213AC2B0f9C9D30300f78636280B6E200465",
+    "earnedToken": "bimstsDAI-EUReAura",
+    "earnedTokenAddress": "0xB4f0213AC2B0f9C9D30300f78636280B6E200465",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-sdai-eure",
+    "status": "active",
+    "createdAt": 1746634299,
+    "platformId": "aura",
+    "assets": ["sDAI", "EURe"],
+    "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_SMALL", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0xdd439304a77f54b1f7854751ac1169b279591ef7000000000000000000000064",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0xaf204776c7245bF4147c2612BF6e5972Ee483701",
+          "0xcB444e90D8198415266c6a2724b7900fb12FC56E"
+        ],
+        "bptIndex": 2,
+        "hasNestedPool": false
+      }
+    ]
+  },
+  {
+    "id": "aura-gnosis-steur-eure",
+    "name": "stEUR-EURe",
+    "type": "standard",
+    "token": "stEUR-EURe Gnosis",
+    "tokenAddress": "0x06135A9Ae830476d3a941baE9010B63732a055F4",
+    "tokenDecimals": 18,
+    "tokenProviderId": "balancer",
+    "earnContractAddress": "0xb73bd57aF6A024f1421368b50d18E016bd907d26",
+    "earnedToken": "bimststEUR-​EURe Aura",
+    "earnedTokenAddress": "0xb73bd57aF6A024f1421368b50d18E016bd907d26",
+    "oracle": "lps",
+    "oracleId": "aura-gnosis-steur-eure",
+    "status": "active",
+    "createdAt": 1747150000,
+    "platformId": "aura",
+    "assets": ["stEUR", "EURe"],
+    "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x06135a9ae830476d3a941bae9010b63732a055f4000000000000000000000065/add-liquidity",
+    "removeLiquidityUrl": "https://balancer.fi/pools/gnosis/v2/0x06135a9ae830476d3a941bae9010b63732a055f4000000000000000000000065/remove-liquidity",
+    "network": "gnosis",
+    "zaps": [
+      {
+        "strategyId": "balancer",
+        "ammId": "gnosis-balancer",
+        "poolId": "0x06135a9ae830476d3a941bae9010b63732a055f4000000000000000000000065",
+        "poolType": "composable-stable",
+        "tokens": [
+          "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+          "0xcB444e90D8198415266c6a2724b7900fb12FC56E"
+        ],
+        "bptIndex": 1,
+        "hasNestedPool": false
+      }
+    ]
+  }
 ]
