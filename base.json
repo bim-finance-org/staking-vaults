@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "morpho-seamless-cbbtc",
+    "name": "Seamless cbBTC",
+    "token": "cbBTC",
+    "tokenAddress": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "tokenDecimals": 8,
+    "earnContractAddress": "0x5AD7DCbdC41048E979ec4190Ad01e9DBC9F8E2AF",
+    "earnedToken": "bimstcbBTCMorphoSeamless",
+    "earnedTokenAddress": "0x5AD7DCbdC41048E979ec4190Ad01e9DBC9F8E2AF",
+    "oracle": "tokens",
+    "oracleId": "cbBTC",
+    "status": "active",
+    "createdAt": 1747320983,
+    "platformId": "morpho",
+    "assets": ["cbBTC"],
+    "migrationIds": [],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "single",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  }
+]
