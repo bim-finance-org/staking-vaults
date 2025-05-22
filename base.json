@@ -23,5 +23,30 @@
         "strategyId": "single"
       }
     ]
+  },
+  {
+    "id": "morpho-seamless-usdc",
+    "name": "Seamless USDC",
+    "token": "USDC",
+    "tokenAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tokenDecimals": 6,
+    "earnedToken": "bimstUSDCMorphoSeamless",
+    "earnedTokenAddress": "0x40408Ae21ab8601d30f1C73c0749Cf217ab6f040",
+    "earnContractAddress": "0x40408Ae21ab8601d30f1C73c0749Cf217ab6f040",
+    "oracle": "tokens",
+    "oracleId": "USDC",
+    "status": "active",
+    "createdAt": 1747901022,
+    "platformId": "morpho",
+    "assets": ["USDC"],
+    "migrationIds": [],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "multi-lp",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
   }
 ]
