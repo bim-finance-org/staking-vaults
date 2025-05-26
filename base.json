@@ -1,5 +1,30 @@
 [
   {
+    "id": "morpho-seamless-weth",
+    "name": "Seamless WETH",
+    "token": "WETH",
+    "tokenAddress": "0x4200000000000000000000000000000000000006",
+    "tokenDecimals": 18,
+    "earnContractAddress": "0x4dc6e52F8F72976306D752E44463d1A6Ff3557A1",
+    "earnedToken": "bimstWETHMorphoSeamless",
+    "earnedTokenAddress": "0x4dc6e52F8F72976306D752E44463d1A6Ff3557A1",
+    "oracle": "tokens",
+    "oracleId": "WETH",
+    "status": "active",
+    "createdAt": 1748252389,
+    "platformId": "morpho",
+    "assets": ["WETH"],
+    "migrationIds": [],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_MEDIUM", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "single",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
     "id": "morpho-seamless-cbbtc",
     "name": "Seamless cbBTC",
     "token": "cbBTC",
