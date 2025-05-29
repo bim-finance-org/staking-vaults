@@ -73,5 +73,43 @@
         "strategyId": "single"
       }
     ]
+  },
+  {
+    "id": "compound-base-aero",
+    "name": "AERO",
+    "type": "standard",
+    "token": "AERO",
+    "tokenAddress": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "tokenDecimals": 18,
+    "earnedToken": "bimstAEROCompound",
+    "earnedTokenAddress": "0x4a9F9AbbA4D2B71d953ad6B17b0a200398a54892",
+    "earnContractAddress": "0x4a9F9AbbA4D2B71d953ad6B17b0a200398a54892",
+    "oracle": "tokens",
+    "oracleId": "AERO",
+    "status": "active",
+    "createdAt": 1732037064,
+    "platformId": "compound",
+    "assets": ["AERO"],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_NONE",
+      "MCAP_LARGE",
+      "PLATFORM_ESTABLISHED",
+      "AUDIT",
+      "CONTRACTS_VERIFIED"
+    ],
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://swap.defillama.com/?chain=base&from=0x0000000000000000000000000000000000000000&to=0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ],
+    "lendingOracle": {
+      "provider": "chainlink",
+      "address": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0"
+    }
   }
 ]
