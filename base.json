@@ -111,5 +111,34 @@
       "provider": "chainlink",
       "address": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0"
     }
+  },
+  {
+    "id": "aerodrome-jeur-eurc",
+    "name": "jEUR-EURC sLP",
+    "type": "standard",
+    "token": "sAMM-jEUR/EURC",
+    "tokenAddress": "0xC75799e0646470128a42D07335aB3BFa9E8Ee7C2",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aerodrome",
+    "earnedToken": "bimstjEUR-EURCAerodrome",
+    "earnedTokenAddress": "0x67aA1E4888E9bA616F7E659D065A6c92920bb54F",
+    "earnContractAddress": "0x67aA1E4888E9bA616F7E659D065A6c92920bb54F",
+    "oracle": "lps",
+    "oracleId": "aerodrome-jeur-eurc",
+    "status": "active",
+    "createdAt": 1749463665,
+    "platformId": "aerodrome",
+    "assets": ["jEUR", "EURC"],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_MICRO", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://aerodrome.finance/deposit?token0=0x4154550f4Db74Dc38d1FE98e1F3F28ed6daD627d&token1=0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42&type=0",
+    "removeLiquidityUrl": "https://aerodrome.finance/withdraw",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aerodrome"
+      }
+    ]
   }
 ]
