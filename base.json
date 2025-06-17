@@ -169,5 +169,34 @@
         "ammId": "base-aerodrome"
       }
     ]
+  },
+  {
+    "id": "aerodrome-bold-usdc",
+    "name": "BOLD-USDC sLP",
+    "type": "standard",
+    "token": "sAMM-Bold/USDC",
+    "tokenAddress": "0x2De3fE21d32319a1550264dA37846737885Ad7A1",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aerodrome",
+    "earnedToken": "bimstBold-​USDCAerodrome",
+    "earnedTokenAddress": "0x274Ff26a693BBc0585861d670321c24FC40c69f1",
+    "earnContractAddress": "0x274Ff26a693BBc0585861d670321c24FC40c69f1",
+    "oracle": "lps",
+    "oracleId": "aerodrome-bold-usdc",
+    "createdAt": 1750146501,
+    "status": "active",
+    "platformId": "aerodrome",
+    "assets": ["BOLDV2", "USDC"],
+    "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_LARGE", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "lp",
+    "addLiquidityUrl": "https://aerodrome.finance/deposit?token0=0x03569cc076654f82679c4ba2124d64774781b01d&token1=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&type=0&chain0=8453&chain1=8453&factory=0x420DD381b31aEf6683db6B902084cB0FFECe40Da",
+    "removeLiquidityUrl": "https://aerodrome.finance/withdraw",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aerodrome"
+      }
+    ]
   }
 ]
