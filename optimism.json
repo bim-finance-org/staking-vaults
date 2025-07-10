@@ -36,5 +36,43 @@
 			"provider": "chainlink",
 			"address": "0x16a9FA2FDa030272Ce99B29CF780dFA30361E0f3"
 		}
+	},
+	{
+		"id": "compound-op-usdt",
+		"name": "USDT",
+		"type": "standard",
+		"token": "USDT",
+		"tokenAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+		"tokenDecimals": 6,
+		"earnedToken": "bimstUSDTCompound",
+		"earnedTokenAddress": "0x4C91d32524bBFCC4fD82E1dbd17c684CD2Ae8CBE",
+		"earnContractAddress": "0x4C91d32524bBFCC4fD82E1dbd17c684CD2Ae8CBE",
+		"oracle": "tokens",
+		"oracleId": "USDT",
+		"status": "active",
+		"createdAt": 1752135955,
+		"platformId": "compound",
+		"assets": ["USDT"],
+		"risks": [
+			"COMPLEXITY_LOW",
+			"BATTLE_TESTED",
+			"IL_NONE",
+			"MCAP_LARGE",
+			"PLATFORM_ESTABLISHED",
+			"AUDIT",
+			"CONTRACTS_VERIFIED"
+		],
+		"strategyTypeId": "lendingNoBorrow",
+		"buyTokenUrl": "https://swap.defillama.com/?chain=optimism&from=0x0000000000000000000000000000000000000000&to=0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+		"network": "optimism",
+		"zaps": [
+			{
+				"strategyId": "single"
+			}
+		],
+		"lendingOracle": {
+			"provider": "chainlink",
+			"address": "0xECef79E109e997bCA29c1c0897ec9d7b03647F5E"
+		}
 	}
 ]
