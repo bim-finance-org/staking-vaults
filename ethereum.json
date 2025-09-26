@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "deuro",
+    "name": "DEURO",
+    "type": "standard",
+    "token": "DEURO",
+    "tokenAddress": "0xbA3f535bbCcCcA2A154b573Ca6c5A49BAAE0a3ea",
+    "tokenDecimals": 18,
+    "earnedToken": "bimstDEURO",
+    "earnedTokenAddress": "0x5AD7DCbdC41048E979ec4190Ad01e9DBC9F8E2AF",
+    "earnContractAddress": "0x5AD7DCbdC41048E979ec4190Ad01e9DBC9F8E2AF",
+    "oracle": "tokens",
+    "oracleId": "DEURO",
+    "status": "active",
+    "createdAt": 1758796241,
+    "platformId": "deuro",
+    "assets": ["DEURO"],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://exchange.bim.finance/en/?blockchainSwap=1&blockchainBuy=1&blockchainSell=1&blockchainInBridge=1&blockchainOutBridge=10&tokenInSwap=54&tokenOutSwap=96&amountInSwap=50&tokenBuy=96&fiatBuy=0&tokenInBridge=96&tokenOutBridge=0&amountInBuy=50&tokenSell=96&fiatSell=0&amountOutSell=50&amountInBridge=50#tab-swapCrypto",
+    "network": "ethereum",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  }
+]
