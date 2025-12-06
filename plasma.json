@@ -9,7 +9,7 @@
     "earnedToken": "bimstUSDT0FluidPlasma",
     "earnedTokenAddress": "0x4C91d32524bBFCC4fD82E1dbd17c684CD2Ae8CBE",
     "oracle": "tokens",
-    "oracleId": "fUSDT0",
+    "oracleId": "USDT0",
     "status": "active",
     "createdAt": 1764968259,
     "platformId": "fluid",
