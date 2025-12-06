@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "fluid-USDT0-plasma",
+    "name": "USDT0",
+    "token": "USDT0",
+    "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+    "tokenDecimals": 6,
+    "earnContractAddress": "0x4C91d32524bBFCC4fD82E1dbd17c684CD2Ae8CBE",
+    "earnedToken": "bimstUSDT0FluidPlasma",
+    "earnedTokenAddress": "0x4C91d32524bBFCC4fD82E1dbd17c684CD2Ae8CBE",
+    "oracle": "tokens",
+    "oracleId": "fUSDT0",
+    "status": "active",
+    "createdAt": 1764968259,
+    "platformId": "fluid",
+    "assets": ["USDT0"],
+    "migrationIds": [],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_LARGE", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "single",
+    "network": "plasma",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  }
+]
