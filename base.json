@@ -391,6 +391,12 @@
     "strategyTypeId": "multi-lp",
     "addLiquidityUrl": "https://app.aero.xyz/deposit/8453-0xdD2A5DAc93e62c27Fe0A3236d22FCEa29E19c62C?rewards=aero",
     "removeLiquidityUrl": "https://app.aero.xyz/portfolio",
-    "network": "base"
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aero"
+      }
+    ]
   }
 ]
