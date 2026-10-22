@@ -369,5 +369,28 @@
         "ammId": "base-aerodrome"
       }
     ]
+  },
+  {
+    "id": "aero-msusd-usdc",
+    "name": "msUSD-USDC sLP",
+    "type": "standard",
+    "token": "sAMMV2-msUSD/USDC",
+    "tokenAddress": "0xdD2A5DAc93e62c27Fe0A3236d22FCEa29E19c62C",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aero",
+    "earnContractAddress": "0x8AC64cdd144bF84C5f2D84BE5733B43Bb682201C",
+    "earnedToken": "bimstmsUSD-USDCAero",
+    "earnedTokenAddress": "0x8AC64cdd144bF84C5f2D84BE5733B43Bb682201C",
+    "oracle": "lps",
+    "oracleId": "aero-msusd-usdc",
+    "status": "active",
+    "createdAt": 1792661273,
+    "platformId": "aero",
+    "assets": ["msUSD", "USDC"],
+    "risks": ["COMPLEXITY_LOW", "IL_NONE", "MCAP_LARGE", "NEW_STRAT"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.aero.xyz/deposit/8453-0xdD2A5DAc93e62c27Fe0A3236d22FCEa29E19c62C?rewards=aero",
+    "removeLiquidityUrl": "https://app.aero.xyz/portfolio",
+    "network": "base"
   }
 ]
