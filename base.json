@@ -429,5 +429,79 @@
         "ammId": "base-aero"
       }
     ]
+  },
+  {
+    "id": "aero-usdc-alusdb",
+    "name": "USDC-alUSDb sLP",
+    "type": "standard",
+    "token": "sAMMV2-USDC/alUSDb",
+    "tokenAddress": "0xA5e16dC9A5cae37563116D9407D8C73927675674",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aero",
+    "earnContractAddress": "0x82A14C4B91373307d87ee232e069108866131031",
+    "earnedToken": "bimstUSDC-alUSDbAero",
+    "earnedTokenAddress": "0x82A14C4B91373307d87ee232e069108866131031",
+    "oracle": "lps",
+    "oracleId": "aero-usdc-alusdb",
+    "status": "active",
+    "createdAt": 1792767533,
+    "platformId": "aero",
+    "assets": [
+      "USDC",
+      "alUSDb"
+    ],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "IL_NONE",
+      "MCAP_LARGE",
+      "NEW_STRAT"
+    ],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.aero.xyz/deposit/8453-0xA5e16dC9A5cae37563116D9407D8C73927675674?rewards=aero",
+    "removeLiquidityUrl": "https://app.aero.xyz/portfolio",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aero"
+      }
+    ]
+  },
+  {
+    "id": "aero-weth-mseth",
+    "name": "WETH-msETH sLP",
+    "type": "standard",
+    "token": "sAMMV2-WETH/msETH",
+    "tokenAddress": "0x45ADCE4be5f602273c6E883a4C94133309aF1D09",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aero",
+    "earnContractAddress": "0x979fB0d7d053476194D33A9568ccbEb906FECcef",
+    "earnedToken": "bimstWETH-msETHAero",
+    "earnedTokenAddress": "0x979fB0d7d053476194D33A9568ccbEb906FECcef",
+    "oracle": "lps",
+    "oracleId": "aero-weth-mseth",
+    "status": "active",
+    "createdAt": 1792767605,
+    "platformId": "aero",
+    "assets": [
+      "WETH",
+      "msETH"
+    ],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "IL_NONE",
+      "MCAP_LARGE",
+      "NEW_STRAT"
+    ],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.aero.xyz/deposit/8453-0x45ADCE4be5f602273c6E883a4C94133309aF1D09?rewards=aero",
+    "removeLiquidityUrl": "https://app.aero.xyz/portfolio",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aero"
+      }
+    ]
   }
 ]
