@@ -503,5 +503,34 @@
         "ammId": "base-aero"
       }
     ]
+  },
+  {
+    "id": "aero-jeur-eurc",
+    "name": "jEUR-EURC sLP",
+    "type": "standard",
+    "token": "sAMMV2-jEUR/EURC",
+    "tokenAddress": "0x64F492b7a8ac4b27E35D8E6C3C21e6b31ac69a27",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aero",
+    "earnContractAddress": "0x785b28D93433A8A8e5a7A99f86c45cF1bbb56254",
+    "earnedToken": "bimstjEUR-EURCAero",
+    "earnedTokenAddress": "0x785b28D93433A8A8e5a7A99f86c45cF1bbb56254",
+    "oracle": "lps",
+    "oracleId": "aero-jeur-eurc",
+    "status": "active",
+    "createdAt": 1793981644,
+    "platformId": "aero",
+    "assets": ["jEUR", "EURC"],
+    "risks": ["COMPLEXITY_MID", "IL_NONE", "MCAP_MICRO", "NEW_STRAT"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.aero.xyz/deposit/8453-0x64F492b7a8ac4b27E35D8E6C3C21e6b31ac69a27?rewards=aero",
+    "removeLiquidityUrl": "https://app.aero.xyz/portfolio",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aero"
+      }
+    ]
   }
 ]
