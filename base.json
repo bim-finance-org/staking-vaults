@@ -590,5 +590,63 @@
         "ammId": "base-aero"
       }
     ]
+  },
+  {
+    "id": "aero-aero-usdc",
+    "name": "AERO-USDC vLP",
+    "type": "standard",
+    "token": "vAMMV2-AERO/USDC",
+    "tokenAddress": "0xF634058dC94e6BF8e828E27621320C423bC8B18E",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aero",
+    "earnContractAddress": "0xdF6F7Bd3E86c2Cb931f9e6Da98FBaB2CB3F17007",
+    "earnedToken": "bimstAERO-USDCAero",
+    "earnedTokenAddress": "0xdF6F7Bd3E86c2Cb931f9e6Da98FBaB2CB3F17007",
+    "oracle": "lps",
+    "oracleId": "aero-aero-usdc",
+    "status": "active",
+    "createdAt": 1794397881,
+    "platformId": "aero",
+    "assets": ["AERO", "USDC"],
+    "risks": ["COMPLEXITY_LOW", "IL_HIGH", "MCAP_MEDIUM", "NEW_STRAT"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.aero.xyz/deposit/8453-0xF634058dC94e6BF8e828E27621320C423bC8B18E?rewards=aero",
+    "removeLiquidityUrl": "https://app.aero.xyz/portfolio",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aero"
+      }
+    ]
+  },
+  {
+    "id": "aero-aero-weth",
+    "name": "AERO-WETH vLP",
+    "type": "standard",
+    "token": "vAMMV2-AERO/WETH",
+    "tokenAddress": "0xC04Ba378E83ff61cDb542ee4dA88e1241cC54E60",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aero",
+    "earnContractAddress": "0xF7035673d44C9B4638A109d336aE6FBA4a27CC7F",
+    "earnedToken": "bimstAERO-WETHAero",
+    "earnedTokenAddress": "0xF7035673d44C9B4638A109d336aE6FBA4a27CC7F",
+    "oracle": "lps",
+    "oracleId": "aero-aero-weth",
+    "status": "active",
+    "createdAt": 1794397924,
+    "platformId": "aero",
+    "assets": ["AERO", "WETH"],
+    "risks": ["COMPLEXITY_LOW", "IL_HIGH", "MCAP_MEDIUM", "NEW_STRAT"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://app.aero.xyz/deposit/8453-0xC04Ba378E83ff61cDb542ee4dA88e1241cC54E60?rewards=aero",
+    "removeLiquidityUrl": "https://app.aero.xyz/portfolio",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aero"
+      }
+    ]
   }
 ]
